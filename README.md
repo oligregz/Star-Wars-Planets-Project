@@ -20,4 +20,4 @@
 
 
 __+ ATENÇÃO:__
-Para rodar o os comandos acima é necessário que tenha o node instalado em sua máquina.
+Para rodar os comandos acima é necessário que tenha o node instalado em sua máquina.
