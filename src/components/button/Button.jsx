@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import GlobalContext from '../../context/GloblaContext';
+import "./style.css";
 
 function Button() {
   const {
@@ -32,6 +33,7 @@ function Button() {
 
   return (
     <button
+      className='btn fifth'
       data-testid="button-filter"
       type="button"
       onClick={ () => filterVerify({

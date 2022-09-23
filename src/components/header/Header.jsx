@@ -1,13 +1,16 @@
 import React from 'react';
 import FilterHeader from '../filterHeader/FilterHeader';
-import InputSearch from '../inputSearch/InputSearch';
+import Button from '../button/Button';
+import "./style.css";
 
 function Header() {
   return (
-    <div>
-      <h1>Projeto Star Wars Trybe</h1>
-      <InputSearch />
-      <FilterHeader />
+    <div className="head">
+      <h1>{" STAR WARS PALNETS "}</h1>
+      <div className="titleAndFilter">
+        <FilterHeader />
+      </div>
+      <Button />
     </div>
   );
 }

@@ -1,0 +1,16 @@
+h1 {
+  font-size: 70px;
+  margin-top: 0px;
+  color: rgb(255, 51, 0);
+  text-align: center;
+}
+
+.head {
+  margin-top: 0px;
+}
+
+.titleAndFilter {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+}

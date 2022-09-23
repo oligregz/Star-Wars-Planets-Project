@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import "./style.css";
 
 function FilterInput(props) {
   const {
@@ -8,6 +9,7 @@ function FilterInput(props) {
   } = props;
   return (
     <input
+      className="filterInput"
       type="number"
       data-testid="value-filter"
       value={ value }

@@ -1,0 +1,64 @@
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.fifth {
+  border-color: rgb(255, 51, 0);
+  border-radius: 0;
+  color: rgb(255, 51, 0);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.fifth:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: rgb(237, 35, 35);
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.fifth:hover {
+  color: #fff;
+}
+.fifth:hover:after {
+  width: 110%;
+}

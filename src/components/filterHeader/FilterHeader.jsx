@@ -2,7 +2,8 @@ import React, { useContext } from 'react';
 import FilterInput from '../filterInput/FilterInput';
 import FilterSelect from '../filterSelect/FilterSelect';
 import GlobalContext from '../../context/GloblaContext';
-import Button from '../button/Button';
+
+import InputSearch from '../inputSearch/InputSearch';
 
 function FilterHeader() {
   const {
@@ -34,31 +35,31 @@ function FilterHeader() {
   }
 
   return (
-    <div>
-      <FilterSelect
-        dataTestId="column-filter"
-        value={ column }
-        id="column"
-        handleChange={ setColumn }
-        valuesArray={ filterColum(filter) }
-      />
+    <div className="headFilters">
+        <InputSearch />
+        <FilterSelect
+          dataTestId="column-filter"
+          value={ column }
+          id="column"
+          handleChange={ setColumn }
+          valuesArray={ filterColum(filter) }
+        />
 
-      <FilterSelect
-        dataTestId="comparison-filter"
-        value={ comparison }
-        id="comparison"
-        handleChange={ setComparison }
-        valuesArray={ [
-          'maior que',
-          'menor que',
-          'igual a',
-        ] }
-      />
-      <FilterInput
-        value={ value }
-        handleChange={ setValue }
-      />
-      <Button />
+        <FilterSelect
+          dataTestId="comparison-filter"
+          value={ comparison }
+          id="comparison"
+          handleChange={ setComparison }
+          valuesArray={ [
+            'maior que',
+            'menor que',
+            'igual a',
+          ] }
+        />
+        <FilterInput
+          value={ value }
+          handleChange={ setValue }
+        />
     </div>
   );
 }

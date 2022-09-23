@@ -7,11 +7,13 @@ import "./style.css";
 function Table() {
   return (
     <div className="tableMain">
-      <Header />
-      <table>
-        <TableHeader />
-        <TableBody />
-      </table>
+      <div className="tableChild">
+        <Header />
+        <table>
+          <TableHeader />
+          <TableBody />
+        </table>
+    </div>
     </div>
   );
 }
