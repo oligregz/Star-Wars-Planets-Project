@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import FilterInput from './FilterInput';
-import FilterSelect from './FilterSelect';
-import GlobalContext from '../context/GloblaContext';
+import FilterInput from '../filterInput/FilterInput';
+import FilterSelect from '../filterSelect/FilterSelect';
+import GlobalContext from '../../context/GloblaContext';
 import Button from './Button';
 
 function FilterHeader() {

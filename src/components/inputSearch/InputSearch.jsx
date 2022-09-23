@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import GlobalContext from '../context/GloblaContext';
+import GlobalContext from '../../context/GloblaContext';
 
 function InputSearch() {
   const { search, setSearch } = useContext(GlobalContext);
