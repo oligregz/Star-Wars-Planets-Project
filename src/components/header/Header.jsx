@@ -1,6 +1,6 @@
 import React from 'react';
-import FilterHeader from './FilterHeader';
-import InputSearch from './InputSearch';
+import FilterHeader from '../filterHeader/FilterHeader';
+import InputSearch from '../inputSearch/InputSearch';
 
 function Header() {
   return (

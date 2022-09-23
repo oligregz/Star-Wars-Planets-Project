@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import Table from './components/Table';
+import Table from './components/table/Table';
 import GlobalProvider from './context/GlobalProvider';
+import "./style.css"
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto Starwars Planets em context api e React moderno(com hooks)!
+# Boas vindas ao repositório do projeto StarWars Planets em context api e React moderno(com hooks)!
 
 # Essa foi uma aplicação com desenvolvimento orientado a testes(implementados pelo curso da Trybe)
   Os requisito desse projeto foram:
