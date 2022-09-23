@@ -1,3 +1,5 @@
 .tableMain {
-  color: brown;
+  background-image: url("./imgs/fire-universe.jpg");
+  /* background-color: black; */
+  color:lightblue;
 }
