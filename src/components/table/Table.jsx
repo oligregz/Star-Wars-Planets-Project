@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header';
-import TableHeader from '../TableHeader';
-import TableBody from '../TableBody';
+import Header from '../header/Header';
+import TableHeader from '../tableHeader/TableHeader';
+import TableBody from '../tableBody/TableBody';
 import "./style.css";
 
 function Table() {
