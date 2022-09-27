@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto StarWars Planets em context api e React moderno(com hooks)!
 
-# Essa foi uma aplicação com desenvolvimento orientado a testes(implementados pelo curso da Trybe)
+# Essa foi uma aplicação com desenvolvimento orientado a testes.
   Os requisito desse projeto foram:
 
     > Realizar uma requisição para o endpoint /planets da API de Star Wars e preencha uma tabela com os dados retornados, com exceção dos da coluna residents.
