@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Star-Wars-Planets-Project/static/css/main.e3e5c6ae.chunk.css",
+    "main.js": "/Star-Wars-Planets-Project/static/js/main.0c61738c.chunk.js",
+    "main.js.map": "/Star-Wars-Planets-Project/static/js/main.0c61738c.chunk.js.map",
+    "runtime-main.js": "/Star-Wars-Planets-Project/static/js/runtime-main.25c081be.js",
+    "runtime-main.js.map": "/Star-Wars-Planets-Project/static/js/runtime-main.25c081be.js.map",
+    "static/js/2.e7206b52.chunk.js": "/Star-Wars-Planets-Project/static/js/2.e7206b52.chunk.js",
+    "static/js/2.e7206b52.chunk.js.map": "/Star-Wars-Planets-Project/static/js/2.e7206b52.chunk.js.map",
+    "index.html": "/Star-Wars-Planets-Project/index.html",
+    "precache-manifest.471285656ce1e20b517c0f7ace006245.js": "/Star-Wars-Planets-Project/precache-manifest.471285656ce1e20b517c0f7ace006245.js",
+    "service-worker.js": "/Star-Wars-Planets-Project/service-worker.js",
+    "static/css/main.e3e5c6ae.chunk.css.map": "/Star-Wars-Planets-Project/static/css/main.e3e5c6ae.chunk.css.map",
+    "static/js/2.e7206b52.chunk.js.LICENSE.txt": "/Star-Wars-Planets-Project/static/js/2.e7206b52.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Star-Wars-Planets-Project/static/media/blue-red-universe.9654c55b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25c081be.js",
+    "static/js/2.e7206b52.chunk.js",
+    "static/css/main.e3e5c6ae.chunk.css",
+    "static/js/main.0c61738c.chunk.js"
+  ]
+}
