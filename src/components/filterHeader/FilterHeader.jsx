@@ -44,7 +44,6 @@ function FilterHeader() {
           handleChange={ setColumn }
           valuesArray={ filterColum(filter) }
         />
-
         <FilterSelect
           dataTestId="comparison-filter"
           value={ comparison }

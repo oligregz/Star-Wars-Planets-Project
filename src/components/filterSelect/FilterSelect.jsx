@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import "./style.css";
 
 function FilterSelect(props) {
   const {
@@ -11,13 +12,20 @@ function FilterSelect(props) {
   } = props;
   return (
     <select
+      className='sel'
       data-testid={ dataTestId }
       value={ value }
       id={ id }
       onChange={ (event) => handleChange(event.target.value) }
     >
       {valuesArray.map((values, index) => (
-        <option key={ index } value={ values }>{ values }</option>
+        <option
+          className='opt'
+          key={ index }
+          value={ values }
+          >
+            { values }
+          </option>
       ))}
     </select>
   );

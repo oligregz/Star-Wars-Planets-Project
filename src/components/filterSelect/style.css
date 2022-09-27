@@ -1,9 +1,13 @@
-.inputSearch {
+.sel {
   background-color: transparent;
   color: rgb(255, 51, 0);
   width: 250px;
-  height: 35px;
+  height: 41px;
   border-color: rgb(255, 51, 0);
   margin: 5px;
   font-size: 20px;
+}
+
+.opt {
+  background-color: transparent;
 }

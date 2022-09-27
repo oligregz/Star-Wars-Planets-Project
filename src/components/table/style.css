@@ -1,3 +1,9 @@
 .tableChild {
-  color: aqua;
+  color: orangered;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 350px;
 }

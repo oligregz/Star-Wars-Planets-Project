@@ -13,7 +13,7 @@ function Table() {
           <TableHeader />
           <TableBody />
         </table>
-    </div>
+      </div>
     </div>
   );
 }

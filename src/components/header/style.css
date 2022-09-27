@@ -6,11 +6,11 @@ h1 {
 }
 
 .head {
-  margin-top: 0px;
+  position: fixed;
+  top: 0;
 }
 
-.titleAndFilter {
-  padding-left: 5px;
+.caseFilter {
   display: flex;
   justify-content: center;
 }
